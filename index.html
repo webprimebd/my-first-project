@@ -1,71 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Prime BD</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #f4f4f4;
-    }
-    header {
-      background-color: #0a74da;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background: #003366;
-      display: flex;
-      justify-content: center;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      padding: 15px 20px;
-      display: block;
-    }
-    nav a:hover {
-      background-color: #0059b3;
-    }
-    main {
-      padding: 30px;
-      text-align: center;
-    }
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Prime BD</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Web Prime BD</h1>
-    <p>Your digital presence starts here.</p>
-  </header>
+    <header>
+        <div class="header-top">
+            <img src="images/logo.png" alt="Web Prime BD Logo" class="logo">
+            <h1 class="site-title">Welcome to Web Prime BD</h1>
+        </div>
+        <p class="tagline">Your digital presence starts here</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Our Clients</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Services</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
+    <section class="team">
+        <h2>Meet Our Team</h2>
 
-  <main>
-    <h2>Hello, world!</h2>
-    <p>This is a sample website hosted on GitHub Pages with a custom domain.</p>
-  </main>
+        <div class="member">
+            <img src="images/mentor.jpg" alt="Mentor">
+            <h3> Mentor <br> Md. Julkar Nayeem</h3>
+            <p>Head (Acting), CSE Department, IIUSTB</p>
+        </div>
 
-  <footer>
-    &copy; 2025 WebPrimeBD. All rights reserved.
-  </footer>
+        <div class="member">
+            <img src="images/director.jpg" alt="Director">
+            <h3> Director <br>Tasriful Islam</h3>
+            <p>CSE Department, IIUSTB</p>
+        </div>
+
+        <div class="member">
+            <img src="images/assistant1.jpg" alt="Assistant Director 1">
+            <h3>Assistant Director <br>Farzana Akter</h3>
+            <p>CSE Department, IIUSTB</p>
+        </div>
+
+        <div class="member">
+            <img src="images/assistant2.jpg" alt="Assistant Director 2">
+            <h3>Assistant Director <br> Milton Ali</h3>
+            <p>CSE Department, IIUSTB</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Web Prime BD</h2>
+        <p>Web Prime BD is a leading digital agency in Bangladesh, offering modern web development, graphic design, and digital marketing solutions tailored to your needs. Our mission is to help businesses thrive in the digital world.</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Core Services</h2>
+        <ul>
+            <li>🌐 Web Design & Development</li>
+            <li>📱 Mobile App UI/UX</li>
+            <li>📢 Digital Marketing</li>
+            <li>🎨 Graphic & Branding</li>
+        </ul>
+    </section>
+
+    <section class="clients">
+        <h2>Our Trusted Clients</h2>
+        <div class="client-logos">
+            <img src="images/client1.png" alt="Client 1">
+            <img src="images/client2.png" alt="Client 2">
+            <img src="images/client3.png" alt="Client 3">
+        </div>
+    </section>
+
+    <section class="contact-cta">
+        <h2>Let’s Build Your Digital Future</h2>
+        <p>Contact us today to grow your business with Web Prime BD.</p>
+        <a href="#" class="btn">Get in Touch</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Web Prime BD. All rights reserved.</p>
+    </footer>
 </body>
 </html>
