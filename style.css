@@ -46,6 +46,20 @@ header {
   margin: 0 auto;
 }
 
+/* Medium screens */
+@media (max-width: 992px) {
+  .site-title {
+    font-size: 50px;  /* কিছুটা ছোট হবে */
+  }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .site-title {
+    font-size: 35px;  /* আরও ছোট হবে */
+  }
+}
+
 .tagline {
   font-size: 28px;
   font-weight: 500;
