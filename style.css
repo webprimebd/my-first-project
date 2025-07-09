@@ -159,10 +159,11 @@ section {
 }
 
 .client-logos img {
-  width: 120px;
-  margin: 10px;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
+    width: 120px;
+border-radius: 50%;
+    margin: 10px;
+    filter: grayscale(100%);
+    transition: 0.3s;
 }
 
 .client-logos img:hover {
