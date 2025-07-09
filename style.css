@@ -159,11 +159,13 @@ section {
 }
 
 .client-logos img {
-    width: 120px;
-border-radius: 50%;
-    margin: 10px;
-    filter: grayscale(100%);
-    transition: 0.3s;
+  width: 120px;
+  height: 120px; /* ensure it's square */
+  border-radius: 50%; /* এইটাই মূল পয়েন্ট */
+  object-fit: cover; /* crop করে মাঝখান দেখাবে */
+  margin: 10px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
 }
 
 .client-logos img:hover {
